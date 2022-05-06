@@ -1,11 +1,44 @@
-
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
 
 body{
-    text-align: center;
+ 
+    background-color:#DDD0E9;
+    color:#004123;
 }
 
 
 h1{
-    color: chocolate;
-    font-size: 80px;
+    font-size: 90px;
+    margin-left:2%;
+    position:absolute;
+    margin-top:2%;
+       text-align:center;
+    top:1%;
+}
+
+.wrap{
+    font-size: 20px;
+text-align:center;
+    margin-top:15%; 
+}
+
+p{
+    font-size:30px;
+}
+
+.submit{
+    background-color: #F2785D;
+        margin: 0 auto;
+        height: 45px;
+         width:150px;
+    color:white;
+    border: white;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top:300px;
 }

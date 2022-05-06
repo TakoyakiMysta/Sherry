@@ -8,33 +8,37 @@
 </head>
 
 <body >
+    <div class="title">
 	<h1>
 		Future Message
 	</h1>
-
+        </div>
+    
+<div class="wrap">
 	<h2>
 		Enter your email and time to get message from future yourself.
 	</h2>
-    <!-- <form action= "Timer">-->
-        <legend>
-        On
-            <input type="datetime-local" name="message" id="sendTime">
+<form action= "Timer">
+    <legend>
+   <p> On
+        <input type="datetime-local" name="message">
+        
+    will recieve message. </p>  
+        
+        
+        <form class="contact-form">
+						<p>Email <input type="text" name="email"></p>
+						<p>Comment <textarea type="text" name="comment" row="5"></textarea></p>
+						<p><input type="submit" name="email" value="Send Message"></p>
+					</form>
+   
+        
+      
+    
+    </legend>
+    </form>
+</div>
 
-         will recieve message.
+</body>
 
-
-            <!-- <form class="contact-form" action = "http://localhost:8080/email"> -->
-						<p>Email <input type="text" name="email" id="email"></p>
-						<p>Comment <textarea type="text" name="comment" row="5" id="comment"></textarea></p>
-						<p><input type="submit" name="email" value="Send Message" onclick="sendJSON()"></p>
-        <!--  </form> -->
-
-
-
-     </legend>
-    <!-- </form> -->
-    <script src="http.js"></script>
-
- </body>
-
- </html>
+</html>
